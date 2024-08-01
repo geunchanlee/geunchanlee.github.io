@@ -56,8 +56,8 @@ menu:
     url:               /devlog/
   - title:             PS
     url:               /ps/
-  - title:             Tags
-    url:               /tags/
+  # - title:             Tags
+  #   url:               /tags/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -82,7 +82,8 @@ paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
-
+# push 전 테마 변경하기!!!
+# bundle exec jekyll serve
 remote_theme: hydecorp/hydejack@v9
 # theme: jekyll-theme-hydejack
 

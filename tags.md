@@ -1,5 +1,5 @@
 ---
-layout: tags
+layout: page
 title: Tags
 permalink: /tags/
 # sidebar: true
@@ -7,3 +7,5 @@ permalink: /tags/
 description: >
     List of all tags
 ---
+
+<h1> {{site.tags}} </h1>
