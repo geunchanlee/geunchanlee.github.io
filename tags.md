@@ -11,7 +11,7 @@ description: >
     {% for tag in site.tags %}
       <li>
         <b>
-        <a href="{{ site.baseurl }}/tags/{{ tag[0] }}">{{ tag[0] | capitalize }}</a> [{{ tag[1].size }}]
+        <a href="{{ site.baseurl }}/tags/{{ tag[0] | downcase }}">{{ tag[0] | capitalize }}</a> [{{ tag[1].size }}]
         </b>
       </li>
     {% endfor %}

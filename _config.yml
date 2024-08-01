@@ -24,8 +24,7 @@ title:                 으악으악으악악
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-  geunchan blog
+# description:           >
 
 # A shorter description for the sidebar.
 # tagline:               기합
