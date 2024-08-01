@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<div class="tag">
+  <ul>
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        <li><b>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </b>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

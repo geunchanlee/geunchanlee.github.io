@@ -28,7 +28,7 @@ description:           >
   geunchan blog
 
 # A shorter description for the sidebar.
-tagline:               study..
+# tagline:               기합
 
 # A list of keywords for your blog
 keywords:              []
@@ -56,8 +56,8 @@ menu:
     url:               /devlog/
   - title:             PS
     url:               /ps/
-  # - title:             Tags
-  #   url:               /tags/
+  - title:             Tags
+    url:               /tags/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -83,7 +83,6 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 # push 전 테마 변경하기!!!
-# bundle exec jekyll serve
 remote_theme: hydecorp/hydejack@v9
 # theme: jekyll-theme-hydejack
 
@@ -94,7 +93,7 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(10, 74, 155)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -103,15 +102,16 @@ theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:700|Noto+Sans+KR:400, 400i,700,700i
+google_fonts:          Roboto+Slab:700|Noto+Sans+KR:400,400i,700,700i|
+                      Montserrat:ital,300,400,500,600,700|Roboto+Mono:ital,300,400,500,600,700
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                  Noto Sans KR, Helvetica, Arial, sans-serif
+font:                  Montserrat, Noto Sans KR, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Noto Sans KR, Helvetica, Arial, sans-serif
+font_heading:          Montserrat, Roboto Slab, Noto Sans KR, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;

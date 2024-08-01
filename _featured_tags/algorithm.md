@@ -1,6 +1,6 @@
 ---
-layout: tag-list
-type: tag
-title: "Algorithm"
+layout: tag
+title: Algorithm
+tag: Algorithm
 permalink: /tags/algorithm/
 ---
