@@ -104,7 +104,7 @@ theme_color:           rgb(25,55,71)
 # See: <https://hydejack.com/docs/configuration/>
 # google_fonts:          Roboto+Slab:700|Noto+Sans+KR:400,400i,700,700i|Montserrat:ital,300,400,500,600,700|Roboto+Mono:ital,300,400,500,600,700
 google_fonts: "Roboto+Slab:700|Noto+Sans+KR:400,400i,700,700i|Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700|Roboto+Mono:ital,300,400,500,600,700"
-ㄴ
+
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 font:                  Montserrat, Noto Sans KR, Helvetica, Arial, sans-serif
