@@ -81,8 +81,8 @@ paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
-# push 전 테마 변경하기!!!!!!
-# !@!@!@!@!@@#!@#!
+# push 전 테마 변경하기
+# #################################################################################
 remote_theme: hydecorp/hydejack@v9
 # theme: jekyll-theme-hydejack
 
@@ -267,7 +267,7 @@ hydejack:
   hide_dates:          false
 
   # TODO
-  hide_last_modified:  false
+  hide_last_modified:  true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
