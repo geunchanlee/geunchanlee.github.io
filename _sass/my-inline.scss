@@ -8,3 +8,26 @@ code {
     padding: 0.2em 0.3em; 
     border-radius: 4px; 
 }
+
+// _sass/_variables.scss
+
+// Pretendard 및 다른 폰트 설정
+$font-primary: 'Montserrat', 'Pretendard', 'Noto Sans KR', Helvetica, Arial, sans-serif;
+$font-heading: 'Montserrat', 'Pretendard', 'Roboto Slab', 'Noto Sans KR', Helvetica, Arial, sans-serif;
+$font_code: 'Roboto Mono', 'Fira Code', 'Pretendard', Menlo, Monaco, Consolas, monospace;
+
+body {
+    font-family: $font-primary;
+    font-size: $root-font-size;
+    line-height: $root-line-height;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    font-weight: $font-weight-heading;
+  }
+  
+  code, pre {
+    font-family: $font-code;
+  }
